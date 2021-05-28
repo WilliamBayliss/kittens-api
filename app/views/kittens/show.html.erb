@@ -4,6 +4,7 @@
     <p>Cuteness: <%= @kitten.cuteness %></p>
     <p>Softness: <%= @kitten.softness %></p>
 
+    <%= link_to "Home", root_path %>
     <%= link_to "Update", edit_kitten_path %>
     <%= link_to "Delete", kitten_path(@kitten), method: :delete %>
 </div>
