@@ -1,6 +1,10 @@
 # README
 
-A simple api that will allow you to render photos of kittens.
+A simple api that will allow you to create "kittens" with names, ages, and a rating of cuteness/softness.
+
+The controller supports rendering HTML and json output for api requests.
+
+
 
 Ruby version 3.0.1
 
